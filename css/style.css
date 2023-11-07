@@ -11,12 +11,62 @@
 /* 
     general 
 */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+/* 
+    header 
+*/
+
+.navbar{
+    background-color: white;
+ 
+    min-height: 50px;
+}
+
+.header-box{
+    background-color: rgb(162, 203, 232);
+    width: 100%;
+    min-height:400px;
+}
+
+.header-elements{
+    background-color: rgb(50, 204, 65);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-title{
+    width: 100%;
+    background-color: lightcoral;
+    min-height: 100px;
+    margin-top: 50px;
+}
+
+.header-text{
+    background-color: lightcoral;
+    width: 40%;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.header-img{
+    background-color: lightcoral;
+    width: 60%;
+    min-height: 200px;
+    margin-top: 50px;
+}
 
 /* 
     main 
 */
 
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
+/* 
+    footer 
+*/
