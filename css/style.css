@@ -66,6 +66,7 @@
     width: 60%;
     min-height: 200px;
     margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 /* 
@@ -75,8 +76,8 @@
 .business-title{
     background-color: rgb(50, 204, 65);
     width: 100%;
-    min-height: 100px;
-    margin-top: 50px;
+    min-height: 200px;
+    margin-top: 100px;
 }
 
 .card-container{
@@ -93,6 +94,48 @@
     width: 30%;
     min-height: 500px;
 }
+
+.enterprise-container{
+    background-color: rgb(50, 204, 65);
+    width: 100%;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.contact-box{
+    background-color:  rgb(50, 204, 65);
+    width: 100%;
+    min-height: 400px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.contact-img{
+    background-color: lightcoral;
+    width: 60%;
+    min-height: 400px;
+}
+
+.contact-text{
+    background-color: lightcoral;
+    width: 40%;
+    min-height: 400px;
+}
+
+.operation-box{
+    background-color: rgb(50, 204, 65);
+    width: 100%;
+    min-height: 600px;
+    margin-top: 100px;
+}
+
+.operation-title{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
 /* 
     footer 
 */
