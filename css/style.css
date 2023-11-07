@@ -16,6 +16,11 @@
     max-width: 1200px;
 }
 
+.small-container{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
 .border{
     border: 2px dashed black;
 }
@@ -67,6 +72,27 @@
     main 
 */
 
+.business-title{
+    background-color: rgb(50, 204, 65);
+    width: 100%;
+    min-height: 100px;
+    margin-top: 50px;
+}
+
+.card-container{
+    background-color: rgb(50, 204, 65);
+    width: 100%;
+    min-height: 800px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: lightcoral;
+    width: 30%;
+    min-height: 500px;
+}
 /* 
     footer 
 */
