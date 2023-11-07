@@ -190,7 +190,7 @@ a{
 }
 
 .card-container{
-    background-color: rgb(50, 204, 65);
+    /* background-color: rgb(50, 204, 65); */
     width: 100%;
     min-height: 1000px;
     margin-top: 50px;
@@ -199,14 +199,15 @@ a{
 }
 
 .card{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 30%;
     min-height: 500px;
+    border: 1px solid lightgray;
 }
 
 .card-top{
     text-align: center;
-    border: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     padding: 10px 0;
 }
 
