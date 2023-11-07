@@ -58,6 +58,11 @@ a{
     border: 1px solid #0061FF;
 }
 
+.white-background{
+    background-color: white;
+    border: 1px solid gray;
+}
+
 .button-small{
     padding: 5px 0;
     padding-left: 10px;
@@ -295,23 +300,34 @@ a{
 /* section 2 */
 
 .contact-box{
-    background-color:  rgb(50, 204, 65);
+    /* background-color:  rgb(50, 204, 65); */
     width: 100%;
     min-height: 400px;
     margin-top: 100px;
     display: flex;
 }
 
+.partners{
+    width: 100%;
+}
+
 .contact-img{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 60%;
     min-height: 400px;
 }
 
 .contact-text{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 40%;
     min-height: 400px;
+    padding: 80px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact-text > h3{
+    font-size: 2em;
 }
 
 /* fine section 2 */
