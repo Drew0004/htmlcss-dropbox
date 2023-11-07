@@ -11,6 +11,11 @@
 /* 
     general 
 */
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     margin: 0 auto;
     max-width: 1200px;
@@ -26,14 +31,57 @@
     border: 2px dashed rgb(246, 205, 0);
 }
 
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+}
+
+.gray{
+    color: #767676;
+}
+
+.blue{
+    background-color: #0061FF;
+    border: 1px solid #0061FF;
+}
+
+.button{
+    padding: 5px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* 
     header 
 */
 
 .navbar{
     background-color: white;
- 
     min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 80%;
+    vertical-align: middle;
+}
+
+.right-nav > ul li{
+    padding-right: 20px;
+}
+
+.left-nav > ul li{
+    margin-left: 20px;
 }
 
 .header-box{
