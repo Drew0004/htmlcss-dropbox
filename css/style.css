@@ -125,7 +125,7 @@
 .operation-box{
     background-color: rgb(50, 204, 65);
     width: 100%;
-    min-height: 600px;
+    min-height: 900px;
     margin-top: 100px;
 }
 
@@ -134,6 +134,28 @@
     width: 100%;
     min-height: 50px;
     margin-bottom: 50px;
+}
+
+.operation-card-box{
+    background-color: rgb(162, 203, 232);
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operation-card{
+    background-color: lightcoral;
+    width: 30%;
+    min-height: 300px;
+    margin-top: 30px;
+}
+
+.operation-bottom{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 100px;
+    margin-top: 100px;
 }
 
 /* 
