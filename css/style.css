@@ -18,7 +18,8 @@
 
 .small-container{
     margin: 0 auto;
-    max-width: 900px;
+    width: 85%;
+    /* max-width: 900px; */
 }
 
 .border{
@@ -73,6 +74,8 @@
     main 
 */
 
+/* section 1 */
+
 .business-title{
     background-color: rgb(50, 204, 65);
     width: 100%;
@@ -102,6 +105,10 @@
     margin-top: 50px;
 }
 
+/* fine section 1 */
+
+/* section 2 */
+
 .contact-box{
     background-color:  rgb(50, 204, 65);
     width: 100%;
@@ -121,6 +128,10 @@
     width: 40%;
     min-height: 400px;
 }
+
+/* fine section 2 */
+
+/* section 3 */
 
 .operation-box{
     background-color: rgb(50, 204, 65);
@@ -158,6 +169,10 @@
     margin-top: 100px;
 }
 
+/* fine secion 3 */
+
+/* section 4 */
+
 .bottom-main-flex{
     display: flex;
 }
@@ -176,6 +191,22 @@
     height: 50%;
     background-color: lightcoral;
 }
+
+.cta-box{
+    background-color:  rgb(50, 204, 65);
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-text{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 100px;
+}
+
+/* fine secion 4 */
 
 /* 
     footer 
