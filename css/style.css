@@ -69,6 +69,10 @@ a{
     font-size: 1.1em;
 }
 
+.margin-top{
+    margin-top: 30px;
+}
+
 /* 
     header 
 */
@@ -260,10 +264,30 @@ a{
 }
 
 .enterprise-container{
-    background-color: rgb(50, 204, 65);
+    /* background-color: rgb(50, 204, 65); */
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     margin-top: 50px;
+    border: 1px solid lightgray;
+}
+
+.enterprise-top{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.enterprise-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.enterprise-left{
+    width: 70%;
+}
+
+.enterprise-right{
+    width: 30%;
 }
 
 /* fine section 1 */
