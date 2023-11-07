@@ -121,11 +121,11 @@ a{
 }
 
 .header-item-margin{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .header-icon-margin{
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 3em;
 }
 
@@ -148,10 +148,40 @@ a{
 /* section 1 */
 
 .business-title{
-    background-color: rgb(50, 204, 65);
+    /* background-color: rgb(50, 204, 65); */
     width: 100%;
     min-height: 200px;
     margin-top: 100px;
+}
+
+.titles{
+    font-size: 3em;
+}
+
+.radio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.check{
+    background-color: white;
+    border:5px solid #0061FF;
+}
+
+.uncheck{
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.li-text{
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.radio-box > ul li {
+    margin-top: 50px;
 }
 
 .card-container{
