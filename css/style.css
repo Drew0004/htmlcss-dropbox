@@ -167,6 +167,14 @@
     width: calc(100vw / 3);
     height: calc(100vw / 3);
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-img-box > *{
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
 }
 
 /* 
