@@ -27,6 +27,11 @@ html{
     /* max-width: 900px; */
 }
 
+.mini-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
 .border{
     border: 2px dashed rgb(246, 205, 0);
 }
@@ -197,6 +202,21 @@ a{
     background-color: lightcoral;
     width: 30%;
     min-height: 500px;
+}
+
+.card-top{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px 0;
+}
+
+.card-title{
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+.price{
+    padding-bottom: 20px;
 }
 
 .enterprise-container{
