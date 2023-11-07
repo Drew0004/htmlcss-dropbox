@@ -192,7 +192,7 @@ a{
 .card-container{
     background-color: rgb(50, 204, 65);
     width: 100%;
-    min-height: 800px;
+    min-height: 1000px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -210,6 +210,41 @@ a{
     padding: 10px 0;
 }
 
+.card-bottom ul{
+    margin-top: 30px;
+}
+
+.card-bottom ul li{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.card-bottom ul li div{
+    margin-right: 10px;
+}
+
+.card-bottom button{
+    width: 100%;
+}
+
+.buy{
+    margin-top: 30px;
+}
+
+.links{
+    text-decoration: underline;
+}
+
+.piano-detail{
+    margin-top: 30px;
+}
+
+.card-line{
+    border: 1px solid gray;
+    margin-top: 30px;
+    width: 20%;
+}
+
 .card-title{
     font-size: 2em;
     padding: 20px 0;
@@ -217,6 +252,10 @@ a{
 
 .price{
     padding-bottom: 20px;
+}
+
+.check-icon{
+    color: #3365ff;
 }
 
 .enterprise-container{
