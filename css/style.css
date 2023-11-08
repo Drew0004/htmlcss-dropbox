@@ -472,17 +472,39 @@ a{
 }
 
 .cta-box{
-    background-color:  rgb(50, 204, 65);
+    background-color: #B4D0E7;
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
     align-items: center;
 }
 
 .cta-text{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 100%;
     min-height: 100px;
+    display: flex;
+
+}
+
+.cta-left{
+    width: 60%;
+}
+
+.cta-right{
+    width: 40%;
+}
+
+.cta-left > h2 {
+    font-size: 2.5em;
+    color: #61082B;
+}
+
+.cta-right > button{
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 /* fine section 4 */
