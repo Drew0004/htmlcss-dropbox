@@ -512,10 +512,34 @@ a{
 /* section 5  */
 
 .faq{
-    background-color: rgb(50, 204, 65);
+    /* background-color: rgb(50, 204, 65); */
     margin-top: 100px;
     width: 100%;
     min-height: 500px;
+}
+
+.faq-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-flex > *{
+    margin-top: 45px;
+}
+
+.faq a{
+    color: black;
+    padding-right: 60px;
+}
+
+.faq > h2{
+    margin-bottom: 60px;
+}
+
+.faq-line{
+    border: 1px solid gray;
+    margin-top: 45px;
 }
 
 /* fine section 5 */
