@@ -20,12 +20,13 @@ html{
 .container{
     margin: 0 auto;
     max-width: 1200px;
+    /* width: 90%; */
 }
 
 .small-container{
     margin: 0 auto;
-    width: 80%;
-    /* max-width: 900px; */
+    /* width: 80%; */
+    max-width: 900px;
 }
 
 .mini-container{
