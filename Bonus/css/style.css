@@ -103,8 +103,22 @@ a{
     position: relative;
 }
 
+.right-nav > ul > li >a{
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.right-nav > ul li :not(button):hover{
+    background-color:#F2EEE8;
+}
+
+.right-nav > ul li:hover .header-popup-box{
+    display: block;
+}
+
 .left-nav > ul li{
-    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
 }
 
 .left-nav > ul > li >a{
@@ -118,7 +132,8 @@ a{
 
 .header-popup-box{
     background-color:#F2EEE8;
-    padding: 20px;
+    min-width: 300px;
+    min-height: 100px;
     position: absolute;
     top: 100%;
     display: none;
@@ -130,8 +145,7 @@ a{
 
 .header-popup-box ul li{
     display: block;
-    margin-left: 0px;
-    padding: 5px 0;
+    padding: 10px 10px;
 }
 
 .header-box{
