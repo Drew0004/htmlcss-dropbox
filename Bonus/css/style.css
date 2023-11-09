@@ -14,6 +14,7 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -144,6 +145,7 @@ a{
 .header-icon-margin{
     margin-top: 80px;
     font-size: 3em;
+    color: black;
 }
 
 .header-img{
@@ -164,7 +166,7 @@ a{
 
 /* section 1 */
 
-.business-title{
+#business-title{
     /* background-color: rgb(50, 204, 65); */
     width: 100%;
     min-height: 200px;
